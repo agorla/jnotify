@@ -24,4 +24,3 @@ CLASS_PATH=${CurDir}/classes
 
 export LD_LIBRARY_PATH
 ${JAVA_HOME}/bin/java -cp ${CLASS_PATH} -Djava.library.path=${LD_LIBRARY_PATH} jnotify.JNotifyMain
-#gdb  ${JAVA_HOME}/bin/java
